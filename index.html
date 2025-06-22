@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open CLT & Timber Building Calculator</title>
+  <meta name="description" content="Open-source platform for timber and CLT building calculations. Configure, calculate, compare.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.3/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-white shadow">
+    <div class="max-w-4xl mx-auto py-6 px-4 flex flex-col md:flex-row md:items-center md:justify-between">
+      <div class="flex items-center space-x-2">
+        <svg class="w-8 h-8 text-green-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M4 20V8a2 2 0 012-2h2a2 2 0 012 2v12M16 20V4a2 2 0 00-2-2h-2a2 2 0 00-2 2v16"></path>
+        </svg>
+        <span class="text-2xl font-bold text-green-800">Open CLT & Timber Building Calculator</span>
+      </div>
+      <nav class="mt-4 md:mt-0">
+        <a href="#features" class="text-green-800 font-medium hover:underline mr-4">Features</a>
+        <a href="#roadmap" class="text-green-800 font-medium hover:underline mr-4">Roadmap</a>
+        <a href="https://github.com/your-repo-link" target="_blank" class="text-green-700 font-bold underline">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <section class="mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-green-800">Design. Simulate. Build. <span class="block text-gray-700 text-2xl font-normal mt-2">Open-source Timber Engineering Toolkit</span></h1>
+      <p class="text-lg text-gray-700 max-w-2xl mb-6">
+        An open, modular platform for architects, engineers, manufacturers, and users to design and simulate CLT & timber buildings in any configuration. 
+        <br>
+        Combine materials, calculate U-values and static loads, analyze layers, and generate detailed reports—fast.
+      </p>
+      <a href="#demo" class="bg-green-700 text-white px-6 py-3 rounded-2xl shadow hover:bg-green-900 transition font-semibold">See Demo ↓</a>
+    </section>
+
+    <section id="features" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-green-800">Core Features</h2>
+      <ul class="grid gap-4 md:grid-cols-2">
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Interactive Layer Configurator</span><br>
+          Build any wall/roof/slab with CLT, timber, insulation, finishes.
+        </li>
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Real-time Physics</span><br>
+          Calculate U-value, condensation, thermal and vapor profiles.
+        </li>
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Preliminary Statics</span><br>
+          Check CLT panel span, thickness, loads, basic EC5 logic.
+        </li>
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Ready-to-Use Presets & Hybrid Mode</span><br>
+          Use best-practice assemblies or mix systems (CLT+timber frame etc).
+        </li>
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Reports & Exports</span><br>
+          Generate PDFs, data exports, and 2D/3D visualizations.
+        </li>
+        <li class="bg-white p-4 rounded-2xl shadow">
+          <span class="font-semibold text-green-700">Open Data & API</span><br>
+          Built for extension by the timber engineering community.
+        </li>
+      </ul>
+    </section>
+
+    <section id="demo" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-green-800">Demo Preview (MVP Concept)</h2>
+      <div class="bg-white rounded-2xl p-6 shadow-lg flex flex-col md:flex-row gap-6">
+        <div class="flex-1">
+          <label class="block font-semibold mb-2">Wall Assembly Example:</label>
+          <ul class="list-disc ml-6 text-gray-700 mb-2">
+            <li>12 mm gypsum board</li>
+            <li>60 mm mineral wool insulation</li>
+            <li>120 mm CLT panel (5-ply)</li>
+            <li>50 mm ventilated facade</li>
+          </ul>
+          <p class="text-sm text-gray-500">* Full interactive configurator coming soon</p>
+        </div>
+        <div class="flex-1">
+          <div class="bg-green-50 rounded-xl p-4 text-green-800 text-sm">
+            <b>U-value:</b> <span class="font-bold">0.21 W/m²K</span><br>
+            <b>Condensation risk:</b> Safe<br>
+            <b>Max span (simulated):</b> 6.2 m<br>
+            <b>Report:</b> <a href="#" class="underline text-green-700">Download PDF (mock)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-green-800">Project Roadmap</h2>
+      <ol class="list-decimal ml-6 text-gray-700 space-y-1">
+        <li>MVP: Interactive layer builder & U-value/condensation calculation</li>
+        <li>Statics for CLT elements (span, loads, thickness)</li>
+        <li>Hybrid assemblies & best-practice catalog</li>
+        <li>PDF report & BIM/data export</li>
+        <li>Manufacturer/ordering module</li>
+        <li>API & plugin ecosystem</li>
+      </ol>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 text-green-800">Inspired by</h2>
+      <div class="flex flex-wrap gap-4 text-sm">
+        <a href="https://www.dataholz.eu/en/components/external-wall.htm" class="underline text-green-700" target="_blank">Dataholz.eu</a>
+        <a href="https://www.ubakus.de/en/r-value-calculator/" class="underline text-green-700" target="_blank">Ubakus.de</a>
+        <a href="https://www.klh.at/en/online-component-catalogue/" class="underline text-green-700" target="_blank">KLH Online Catalogue</a>
+        <a href="https://www.massivholzhandbuch.com/" class="underline text-green-700" target="_blank">Massivholzhandbuch</a>
+      </div>
+    </section>
+
+    <footer class="text-gray-500 text-xs mt-12 border-t pt-4">
+      <div class="flex flex-col md:flex-row md:justify-between items-center">
+        <span>Open CLT & Timber Building Calculator &copy; 2024 – Open Source Prototype</span>
+        <span>
+          <a href="https://github.com/your-repo-link" target="_blank" class="underline text-green-700">GitHub</a>
+        </span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
